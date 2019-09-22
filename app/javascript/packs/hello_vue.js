@@ -8,11 +8,17 @@
 import Vue from 'vue'
 import App from '../app.vue'
 
+import 'bootstrap'
+import '../stylesheets/application.scss'
+
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
     render: h => h(App)
   }).$mount()
   document.body.appendChild(app.$el)
+
+  $('[data-toggle="popover"]').popover()
+  $('[data-toggle="tooltip"]').tooltip()
 
   console.log(app)
 })
