@@ -8,6 +8,9 @@
 import Vue from 'vue'
 import App from '../app.vue'
 
+require("trix")
+require("@rails/actiontext")
+
 import 'bootstrap'
 import '../stylesheets/application.scss'
 
