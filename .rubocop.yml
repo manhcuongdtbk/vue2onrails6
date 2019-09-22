@@ -1,0 +1,26 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Metrics/LineLength:
+  Max: 120
+
+AllCops:
+  Exclude:
+    - "bin/*"
+    - "db/*"
+    - "node_modules/**/*"
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - "test/channels/application_cable/connection_test.rb"
+    - "test/test_helper.rb"
