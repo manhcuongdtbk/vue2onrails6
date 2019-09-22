@@ -18,6 +18,7 @@ AllCops:
   Exclude:
     - "bin/*"
     - "db/*"
+    - "db/migrate/*"
     - "node_modules/**/*"
 
 Style/ClassAndModuleChildren:
