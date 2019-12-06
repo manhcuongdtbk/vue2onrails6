@@ -7,7 +7,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "image_processing", "~> 1.2"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", ">= 0.4.4"
-gem "puma", "~> 3.11"
+gem "puma", "~> 3.12"
 gem "rails", "~> 6.0.0"
 gem "sass-rails", "~> 5"
 gem "turbolinks", "~> 5"
